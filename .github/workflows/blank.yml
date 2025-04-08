@@ -23,5 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Make Vitest executable
+        run: chmod +x node_modules/.bin/vitest
+
       - name: Run tests with Vitest
         run: node_modules/.bin/vitest run
