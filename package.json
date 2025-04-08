@@ -44,7 +44,7 @@
   },
   "scripts": {
     "test": "vitest",
-    "prepare": "husky install"
+    "prepare": "if [ \"$CI\" != \"true\" ]; then husky install; fi"
   },
   "keywords": [],
   "author": "",
