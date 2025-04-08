@@ -44,7 +44,8 @@
   },
   "scripts": {
     "test": "vitest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "",
